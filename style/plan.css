@@ -1,0 +1,103 @@
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#hero {
+  background-image: url(../assets/Hero-bg.png);
+  background-size: cover;
+  background-position: center;
+  width: 1350px;
+  height: 652px;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#hero .hero-content {
+  width: 720px;
+  margin-bottom: 40px;
+}
+
+.group-container {
+  text-align: center;
+  margin-bottom: 45px;
+}
+
+/* Group */
+#hero .hero-content .group {
+  width: 210.28px;
+  height: 210px;
+  margin-top: 0%;
+  align-items: center;
+  justify-content: center;
+  background-position: center;
+}
+
+/* "In the near future, I hope to become a Developer." */
+#hero .hero-content .banner-heading {
+  position: static;
+  width: 798px;
+  height: 136px;
+  font-size: 40px;
+  margin-bottom: 40px;
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0px;
+
+  /* Inside Auto Layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 14px 0px;
+}
+
+/* Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text. */
+#hero .hero-content .subtitle {
+  font-size: 13px;
+  text-align: center;
+  position: static;
+  width: 762px;
+  height: 40px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 20px 0px;
+  text-justify: auto;
+}
+
+.btn-container {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.btn {
+  padding: 14px 18px 14px 18px;
+  color: rgb(255, 255, 255);
+  font-family: Open Sans;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 0%;
+  text-align: center;
+  border-radius: 8px;
+  background: rgb(13, 19, 33);
+  border: none;
+}
