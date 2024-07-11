@@ -118,7 +118,7 @@
   font-family: Open Sans;
   text-align: center;
   color: rgb(13, 19, 33);
-  margin-top: 50px;
+  margin-top: 30px;
 }
 
 /* about style */
@@ -164,7 +164,7 @@ main {
   width: 70%;
 
   text-align: left;
-  margin-top: 60px;
+  margin-top: 40px;
 
   width: 390px;
   height: 72px;
@@ -184,7 +184,7 @@ main {
   letter-spacing: 0%;
   text-align: left;
   opacity: 0.7;
-  margin-top: 30px;
+  margin-top: 24px;
 }
 
 .item-button {
@@ -202,7 +202,7 @@ main {
   letter-spacing: 0%;
   text-align: center;
   padding: 14px 18px 14px 18px;
-  margin-top: 30px;
+  margin-top: 24px;
 }
 
 .item-image {
@@ -213,4 +213,15 @@ main {
 
 .layout-image {
   display: flex;
+}
+
+.item-video {
+  width: 860px;
+  height: 484px;
+  border-radius: 16px;
+  margin: 10px 0px;
+  padding: 32px;
+  align-self: stretch;
+  border: 1px solid rgba(13, 19, 33, 0.2);
+  margin-top: 30px;
 }
