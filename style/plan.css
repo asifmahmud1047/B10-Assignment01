@@ -289,7 +289,7 @@ main {
   font-weight: 400;
   text-align: center;
   opacity: 0.7;
-  margin-bottom: 30px;
+  margin-bottom: 60px;
   margin-top: 15px;
 }
 
@@ -323,4 +323,29 @@ main {
   text-align: center;
   border-radius: 8px;
   background: rgb(255, 255, 255);
+}
+
+.commitment {
+  width: 1140px;
+  height: 36px;
+  background: rgb(30, 30, 30);
+  border-radius: 16px;
+  padding: 110px 110px 30px 110px;
+  background: rgba(13, 19, 33, 0.02);
+}
+
+.footer-part {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px;
+}
+
+.author {
+  color: rgb(13, 19, 33);
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0%;
+  text-align: center;
 }
