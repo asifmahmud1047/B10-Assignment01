@@ -9,6 +9,34 @@
   padding: 0;
 }
 
+.hello {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 110px 50px 110px;
+}
+
+.name {
+  color: rgb(13, 19, 33);
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 33px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.cv {
+  width: 228px;
+  height: 58px;
+  left: 1046px;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 17px 24px 17px 24px;
+  box-sizing: border-box;
+  border: 1px solid rgb(13, 19, 33);
+  border-radius: 8px;
+  opacity: 0.8;
+}
+
 #hero {
   background-image: url(../assets/Hero-bg.png);
   background-size: cover;
@@ -47,20 +75,15 @@
   position: static;
   width: 798px;
   height: 136px;
-  font-size: 40px;
+  font-weight: 800;
+  font-size: 48px;
   margin-bottom: 40px;
-
-  /* Auto layout */
+  text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
   padding: 0px;
-
-  /* Inside Auto Layout */
-  flex: none;
-  order: 0;
-  flex-grow: 0;
   margin: 14px 0px;
 }
 
