@@ -93,7 +93,7 @@
   padding: 14px 18px 14px 18px;
   color: rgb(255, 255, 255);
   font-family: Open Sans;
-  font-size: 12px;
+  font-size: 20px;
   font-weight: 600;
   line-height: 16px;
   letter-spacing: 0%;
@@ -224,4 +224,103 @@ main {
   align-self: stretch;
   border: 1px solid rgba(13, 19, 33, 0.2);
   margin-top: 30px;
+}
+/* skills section styles */
+.skills-container {
+  display: flex;
+  gap: 24px;
+  justify-content: flex-start;
+  margin-top: 30px;
+}
+
+.skill-1 {
+  border-radius: 16px;
+  padding: 30px;
+  background: rgba(255, 76, 30, 0.05);
+}
+.skill-2 {
+  border-radius: 16px;
+  padding: 30px;
+  background-color: rgba(0, 76, 232, 0.05);
+}
+.skill-3 {
+  border-radius: 16px;
+  padding: 30px;
+  background-color: rgba(255, 223, 0, 0.05);
+}
+
+.skill-title {
+  margin-top: 16px;
+  margin-bottom: 12px;
+}
+
+.skill-description {
+  margin-top: 12px;
+  margin-bottom: 16px;
+}
+
+/* support part starts here */
+.handshake {
+  background-image: url(../assets/handshake.jpg);
+  width: 1140px;
+  height: 314px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 16px;
+  margin-top: 40px;
+  background: rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2),
+    url(Email);
+}
+
+.hand-support {
+  text-align: center;
+}
+
+.support-title {
+  font-size: 32px;
+  color: rgb(255, 255, 255);
+  padding: 60px 0px 0px 0px;
+}
+
+.support-description {
+  color: rgb(255, 255, 255);
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  opacity: 0.7;
+  margin-bottom: 30px;
+  margin-top: 15px;
+}
+
+.QnA {
+  position: static;
+  width: 548px;
+  height: 57px;
+  padding: 19px 20px 19px 20px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: left;
+  align-items: center;
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 8px;
+  background: rgb(255, 255, 255);
+}
+
+.finish {
+  position: static;
+  width: 120px;
+  height: 58px;
+  padding: 17px 20px 17px 20px;
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: center;
+  border-radius: 8px;
+  background: rgb(255, 255, 255);
 }
